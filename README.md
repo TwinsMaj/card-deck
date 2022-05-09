@@ -2,6 +2,12 @@
 
 A simple card games library for simulating all sort of card games.
 
+### Project Setup
+
+- Node v17.9.0
+- `Volta` Nodejs manager (you can use any Node version manageer of choice.)
+- `yarn` form managing packages
+
 ### Development
 
 - make a new `.env` file from the `.env.example` file. Be sure to update the new `.env` file with the correct values
