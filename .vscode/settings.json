@@ -1,0 +1,7 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	"triggerTaskOnSave.tasks": {
+		"restart cards": ["src/**/*"]
+	}
+}

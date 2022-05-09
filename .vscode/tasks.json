@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "restart cards",
+			"type": "shell",
+			"command": "docker compose restart cards",
+			"presentation": {
+				"reveal": "never"
+			}
+		}
+	]
+}
