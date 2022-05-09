@@ -12,7 +12,7 @@
 		"build": "rimraf dist && swc ./src -d dist",
 		"start": "node dist/index.js",
 		"start:dev": "yarn build && node --inspect=0.0.0.0 dist/index.js",
-		"test:integration": "NODE_ENV=test mocha --timeout 5000 --require ts-node/register src/test/**/*_spec.ts",
+		"test:integration": "NODE_ENV=test mocha --timeout 5000 --require ts-node/register src/test/integration/**/*_spec.ts",
 		"test:unit": "NODE_ENV=test mocha --timeout 5000 --require ts-node/register src/test/unit/**/*_spec.ts"
 	},
 	"dependencies": {

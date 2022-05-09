@@ -1,8 +1,8 @@
 import chai from 'chai';
 import { StatusCodes } from 'http-status-codes';
-import Deck from '../models/deck';
+import Deck from '../../models/deck';
 import chaiHttp = require('chai-http');
-import server from '../index';
+import server from '../../index';
 
 const should = chai.should();
 chai.use(chaiHttp);
